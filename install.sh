@@ -9,6 +9,7 @@ mv darknred/public public
 mv darknred/tailwind.config.js tailwind.config.js
 chown -R www-data:www-data /var/www/pterodactyl/*
 chmod -R 755 storage/* bootstrap/cache/
+yarn install
 yarn build
 php artisan queue:restart
 php artisan up

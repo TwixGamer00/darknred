@@ -8,7 +8,6 @@ mv darknred/resources resources
 mv darknred/public public
 mv darknred/tailwind.config.js tailwind.config.js
 chmod -R 755 storage/* bootstrap/cache/
-npm i -g n
 yarn build
 php artisan queue:restart
 php artisan up

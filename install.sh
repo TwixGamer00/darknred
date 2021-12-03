@@ -1,6 +1,6 @@
 cd /var/www/pterodactyl
 php artisan down
-rm -r darknred
+rm -r -f darknred
 git clone https://github.com/TwixGamer00/darknred.git
 rm -r -f resources
 rm -r -f public

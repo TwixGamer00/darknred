@@ -1,5 +1,5 @@
 # DarkNRed theme for pterodactyl
-Note: When installing the theme you need to have nodejs installed with version 16.x.x and you need to have yarn installed, you can install yarn by running `npm install -g yarn`
+Note: When installing the theme you need to have nodejs installed with version 16.x.x, you need git installed and you need to have yarn installed, you can install yarn by running `npm install -g yarn`
 
 **Automated installation**
 Make sure you run the script with the right permissions!

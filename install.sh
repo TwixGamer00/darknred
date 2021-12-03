@@ -13,6 +13,6 @@ echo "Updated Tailwind file"
 chown -R www-data:www-data /var/www/pterodactyl/*
 chmod -R 755 storage/* bootstrap/cache/
 yarn install
-yarn build
+yarn build:production
 php artisan queue:restart
 php artisan up
